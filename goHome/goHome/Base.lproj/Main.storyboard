@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="IVn-hQ-GPm">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="F2T-tL-Z1p">
+            <objects>
+                <navigationController id="IVn-hQ-GPm" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="F8c-DY-Qsl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="j6Y-5f-BiQ" kind="relationship" relationship="rootViewController" id="qC4-Kk-CSK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WFg-BI-0nQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2334" y="-332"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sS2-oy-f1Z">
+            <objects>
+                <viewController id="j6Y-5f-BiQ" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ebg-US-Xha"/>
+                        <viewControllerLayoutGuide type="bottom" id="mVa-HW-Zcn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0S5-F9-uUH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="denglBeijing.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lbb-ok-wYp" userLabel="Bg Image View">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                </variation>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z40-IW-Jrt" userLabel="Content View">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nwR-QO-oSq" userLabel="Phone View">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OFQ-gb-ceT">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <variation key="widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="0.0" y="51" width="284" height="2"/>
+                                                </variation>
+                                            </view>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phoneIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="bze-si-rsA">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <variation key="widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="0.0" y="7" width="34" height="34"/>
+                                                </variation>
+                                            </imageView>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入手机号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MhC-QF-J8c">
+                                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <variation key="widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="44" y="0.0" width="240" height="53"/>
+                                                </variation>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="OFQ-gb-ceT"/>
+                                                <exclude reference="bze-si-rsA"/>
+                                                <exclude reference="MhC-QF-J8c"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="45" y="103" width="284" height="53"/>
+                                            <mask key="subviews">
+                                                <include reference="OFQ-gb-ceT"/>
+                                                <include reference="bze-si-rsA"/>
+                                                <include reference="MhC-QF-J8c"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X8G-O7-vUU" userLabel="Password View">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZkH-wA-5q0">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <variation key="widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="0.0" y="51" width="284" height="2"/>
+                                                </variation>
+                                            </view>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="passwordIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="3sO-g4-53Y">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <variation key="widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="0.0" y="5" width="34" height="34"/>
+                                                </variation>
+                                            </imageView>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MS6-l1-BqB">
+                                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                <variation key="widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="44" y="0.0" width="240" height="53"/>
+                                                </variation>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="ZkH-wA-5q0"/>
+                                                <exclude reference="3sO-g4-53Y"/>
+                                                <exclude reference="MS6-l1-BqB"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="45" y="164" width="284" height="53"/>
+                                            <mask key="subviews">
+                                                <include reference="ZkH-wA-5q0"/>
+                                                <include reference="3sO-g4-53Y"/>
+                                                <include reference="MS6-l1-BqB"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hqm-ag-WgZ" userLabel="Third Login View">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="45" y="355" width="284" height="58"/>
+                                        </variation>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exL-K5-NjP">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <state key="normal" title="注册" backgroundImage="loginButton.png"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="45" y="290" width="284" height="44"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="registerButton:" destination="j6Y-5f-BiQ" eventType="touchUpInside" id="OOl-Zn-4MJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b8l-0a-Swe">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <state key="normal" title="登录" backgroundImage="rigisterButton.png">
+                                            <color key="titleColor" red="0.16551983079999999" green="0.62696333739999999" blue="0.66700205180000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="45" y="231" width="284" height="44"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="loginButton:" destination="j6Y-5f-BiQ" eventType="touchUpInside" id="rqM-qx-Wso"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome.png" translatesAutoresizingMaskIntoConstraints="NO" id="cUi-5N-OMa">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="67" y="45" width="240" height="39"/>
+                                        </variation>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="nwR-QO-oSq"/>
+                                        <exclude reference="X8G-O7-vUU"/>
+                                        <exclude reference="Hqm-ag-WgZ"/>
+                                        <exclude reference="exL-K5-NjP"/>
+                                        <exclude reference="b8l-0a-Swe"/>
+                                        <exclude reference="cUi-5N-OMa"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="421"/>
+                                    <mask key="subviews">
+                                        <include reference="nwR-QO-oSq"/>
+                                        <include reference="X8G-O7-vUU"/>
+                                        <include reference="Hqm-ag-WgZ"/>
+                                        <include reference="exL-K5-NjP"/>
+                                        <include reference="b8l-0a-Swe"/>
+                                        <include reference="cUi-5N-OMa"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Lbb-ok-wYp"/>
+                                <exclude reference="z40-IW-Jrt"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Lbb-ok-wYp"/>
+                                <include reference="z40-IW-Jrt"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="YFF-VP-Lid"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="bgImageView" destination="Lbb-ok-wYp" id="L5p-C6-urR"/>
+                        <outlet property="contentView" destination="z40-IW-Jrt" id="u5d-Ap-F9a"/>
+                        <outlet property="passwordTextField" destination="MS6-l1-BqB" id="MN8-5K-3Ex"/>
+                        <outlet property="passwordView" destination="X8G-O7-vUU" id="hO2-o1-9tr"/>
+                        <outlet property="phoneTextField" destination="MhC-QF-J8c" id="siA-KM-WWj"/>
+                        <outlet property="phoneView" destination="nwR-QO-oSq" id="3g3-t6-Sgc"/>
+                        <outlet property="thirdLoginView" destination="Hqm-ag-WgZ" id="1gN-ME-hGx"/>
+                        <outlet property="welcomImageView" destination="cUi-5N-OMa" id="aPG-dD-W8O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kIO-13-LkG" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1654.5" y="-359.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="denglBeijing.png" width="1680" height="2442"/>
+        <image name="loginButton.png" width="251" height="40"/>
+        <image name="passwordIcon.png" width="19" height="22"/>
+        <image name="phoneIcon.png" width="19" height="20"/>
+        <image name="rigisterButton.png" width="251" height="40"/>
+        <image name="welcome.png" width="193" height="28"/>
+    </resources>
+</document>

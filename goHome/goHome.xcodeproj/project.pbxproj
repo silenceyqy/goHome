@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AB485901CF4779B00106028 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB4858F1CF4779B00106028 /* main.m */; };
+		0AB485931CF4779B00106028 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB485921CF4779B00106028 /* AppDelegate.m */; };
+		0AB485961CF4779B00106028 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB485951CF4779B00106028 /* ViewController.m */; };
+		0AB485991CF4779B00106028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB485971CF4779B00106028 /* Main.storyboard */; };
+		0AB4859B1CF4779B00106028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB4859A1CF4779B00106028 /* Assets.xcassets */; };
+		0AB4859E1CF4779B00106028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB4859C1CF4779B00106028 /* LaunchScreen.storyboard */; };
+		0AB485B01CF4798700106028 /* denglBeijing.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB485A71CF4798600106028 /* denglBeijing.png */; };
+		0AB485B11CF4798700106028 /* loginButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB485A81CF4798600106028 /* loginButton@2x.png */; };
+		0AB485B21CF4798700106028 /* passwordIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB485A91CF4798600106028 /* passwordIcon@2x.png */; };
+		0AB485B31CF4798700106028 /* phoneIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB485AA1CF4798600106028 /* phoneIcon@2x.png */; };
+		0AB485B41CF4798700106028 /* QQButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB485AB1CF4798600106028 /* QQButton@2x.png */; };
+		0AB485B51CF4798700106028 /* rigisterButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB485AC1CF4798600106028 /* rigisterButton@2x.png */; };
+		0AB485B61CF4798700106028 /* weChatButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB485AD1CF4798600106028 /* weChatButton@2x.png */; };
+		0AB485B71CF4798700106028 /* weiboButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB485AE1CF4798600106028 /* weiboButton@2x.png */; };
+		0AB485B81CF4798700106028 /* welcome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB485AF1CF4798600106028 /* welcome@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AB4858B1CF4779B00106028 /* goHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB4858F1CF4779B00106028 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AB485911CF4779B00106028 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AB485921CF4779B00106028 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AB485941CF4779B00106028 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0AB485951CF4779B00106028 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0AB485981CF4779B00106028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AB4859A1CF4779B00106028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AB4859D1CF4779B00106028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AB4859F1CF4779B00106028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AB485A71CF4798600106028 /* denglBeijing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = denglBeijing.png; sourceTree = "<group>"; };
+		0AB485A81CF4798600106028 /* loginButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginButton@2x.png"; sourceTree = "<group>"; };
+		0AB485A91CF4798600106028 /* passwordIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "passwordIcon@2x.png"; sourceTree = "<group>"; };
+		0AB485AA1CF4798600106028 /* phoneIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phoneIcon@2x.png"; sourceTree = "<group>"; };
+		0AB485AB1CF4798600106028 /* QQButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQButton@2x.png"; sourceTree = "<group>"; };
+		0AB485AC1CF4798600106028 /* rigisterButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rigisterButton@2x.png"; sourceTree = "<group>"; };
+		0AB485AD1CF4798600106028 /* weChatButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weChatButton@2x.png"; sourceTree = "<group>"; };
+		0AB485AE1CF4798600106028 /* weiboButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weiboButton@2x.png"; sourceTree = "<group>"; };
+		0AB485AF1CF4798600106028 /* welcome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AB485881CF4779B00106028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB485821CF4779B00106028 = {
+			isa = PBXGroup;
+			children = (
+				0AB4858D1CF4779B00106028 /* goHome */,
+				0AB4858C1CF4779B00106028 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AB4858C1CF4779B00106028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AB4858B1CF4779B00106028 /* goHome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AB4858D1CF4779B00106028 /* goHome */ = {
+			isa = PBXGroup;
+			children = (
+				0AB485A51CF4798600106028 /* images */,
+				0AB485911CF4779B00106028 /* AppDelegate.h */,
+				0AB485921CF4779B00106028 /* AppDelegate.m */,
+				0AB485941CF4779B00106028 /* ViewController.h */,
+				0AB485951CF4779B00106028 /* ViewController.m */,
+				0AB485971CF4779B00106028 /* Main.storyboard */,
+				0AB4859A1CF4779B00106028 /* Assets.xcassets */,
+				0AB4859C1CF4779B00106028 /* LaunchScreen.storyboard */,
+				0AB4859F1CF4779B00106028 /* Info.plist */,
+				0AB4858E1CF4779B00106028 /* Supporting Files */,
+			);
+			path = goHome;
+			sourceTree = "<group>";
+		};
+		0AB4858E1CF4779B00106028 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AB4858F1CF4779B00106028 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AB485A51CF4798600106028 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0AB485A61CF4798600106028 /* 登录 */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		0AB485A61CF4798600106028 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				0AB485A71CF4798600106028 /* denglBeijing.png */,
+				0AB485A81CF4798600106028 /* loginButton@2x.png */,
+				0AB485A91CF4798600106028 /* passwordIcon@2x.png */,
+				0AB485AA1CF4798600106028 /* phoneIcon@2x.png */,
+				0AB485AB1CF4798600106028 /* QQButton@2x.png */,
+				0AB485AC1CF4798600106028 /* rigisterButton@2x.png */,
+				0AB485AD1CF4798600106028 /* weChatButton@2x.png */,
+				0AB485AE1CF4798600106028 /* weiboButton@2x.png */,
+				0AB485AF1CF4798600106028 /* welcome@2x.png */,
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AB4858A1CF4779B00106028 /* goHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB485A21CF4779C00106028 /* Build configuration list for PBXNativeTarget "goHome" */;
+			buildPhases = (
+				0AB485871CF4779B00106028 /* Sources */,
+				0AB485881CF4779B00106028 /* Frameworks */,
+				0AB485891CF4779B00106028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = goHome;
+			productName = goHome;
+			productReference = 0AB4858B1CF4779B00106028 /* goHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AB485831CF4779B00106028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "杨青云";
+				TargetAttributes = {
+					0AB4858A1CF4779B00106028 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = D4BU8BBQTW;
+					};
+				};
+			};
+			buildConfigurationList = 0AB485861CF4779B00106028 /* Build configuration list for PBXProject "goHome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AB485821CF4779B00106028;
+			productRefGroup = 0AB4858C1CF4779B00106028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AB4858A1CF4779B00106028 /* goHome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AB485891CF4779B00106028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB485B51CF4798700106028 /* rigisterButton@2x.png in Resources */,
+				0AB485B11CF4798700106028 /* loginButton@2x.png in Resources */,
+				0AB4859E1CF4779B00106028 /* LaunchScreen.storyboard in Resources */,
+				0AB485B81CF4798700106028 /* welcome@2x.png in Resources */,
+				0AB485B41CF4798700106028 /* QQButton@2x.png in Resources */,
+				0AB485B01CF4798700106028 /* denglBeijing.png in Resources */,
+				0AB485B31CF4798700106028 /* phoneIcon@2x.png in Resources */,
+				0AB485B61CF4798700106028 /* weChatButton@2x.png in Resources */,
+				0AB4859B1CF4779B00106028 /* Assets.xcassets in Resources */,
+				0AB485B21CF4798700106028 /* passwordIcon@2x.png in Resources */,
+				0AB485991CF4779B00106028 /* Main.storyboard in Resources */,
+				0AB485B71CF4798700106028 /* weiboButton@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AB485871CF4779B00106028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB485961CF4779B00106028 /* ViewController.m in Sources */,
+				0AB485931CF4779B00106028 /* AppDelegate.m in Sources */,
+				0AB485901CF4779B00106028 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0AB485971CF4779B00106028 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB485981CF4779B00106028 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AB4859C1CF4779B00106028 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB4859D1CF4779B00106028 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AB485A01CF4779C00106028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AB485A11CF4779C00106028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AB485A31CF4779C00106028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = goHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yqy.goHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AB485A41CF4779C00106028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = goHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yqy.goHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AB485861CF4779B00106028 /* Build configuration list for PBXProject "goHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB485A01CF4779C00106028 /* Debug */,
+				0AB485A11CF4779C00106028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB485A21CF4779C00106028 /* Build configuration list for PBXNativeTarget "goHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB485A31CF4779C00106028 /* Debug */,
+				0AB485A41CF4779C00106028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AB485831CF4779B00106028 /* Project object */;
+}
